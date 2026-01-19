@@ -1,0 +1,66 @@
+/* ContactForm.module.css */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  min-width: 300px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 40%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.field {
+  padding: 6px 8px;
+  margin-top: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%; 
+  box-sizing: border-box; 
+  margin-left: 5px; 
+  margin-right: 5px;
+  color: #000;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+button {
+border: 2px solid #171717;
+background-color: #cdcfcd;
+color: #000;
+padding: 10px 20px;
+display: inline-block;
+white-space: nowrap;
+border-radius: 5px;
+cursor: pointer;
+margin: 0 auto;
+width: auto; 
+
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+.field {
+    margin-top: 4px;
+     font-size: 16px;
+    background: #fff;
+    margin: 0 auto;
+    max-width: 400px;
+}

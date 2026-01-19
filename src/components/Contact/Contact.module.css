@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  width: 250px;
+}
+
+.info p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+.icon {
+  font-size: 14px;
+  color: black;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  margin-left: auto;
+}
